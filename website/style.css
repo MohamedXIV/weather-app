@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #695e83;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+  /* display: flex; */
+  /* grid-auto-rows: minmax(150px, auto); */
+  /* grid-template-columns:  */
+  height: 96vh;
+  /* background: #f23557; */
+  color: #f0d43a;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* grid-gap: 1em; */
+  font-size: 1.6rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  border-radius: 0.2rem;
+  /* padding: 1.5rem; */
+}
+
+.holder {
+  min-width: 80%;
+}
+
+#entryHolder {
+  padding: 1.2rem;
+}
+
+#date {
+}
+
+#temp {
+}
+
+#content {
+}
+
+.headline{
+    border-bottom: 1px solid #695e83;
+}
+
+.title {
+  padding: 1rem;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  /* font-size: 27px; */
+}
+
+nav {
+  position: static;
+  min-height: 8%;
+  background-color: #3b4a6b;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 1px 0px rgba(20, 20, 20, 0.9);
+}
+
+main {
+  max-width: 960px;
+  margin: 1rem auto;
+  min-height: 84%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  text-indent: 4%;
+  border-radius: 0.4rem;
+}
+
+button {
+  width: 40%;
+  height: 4rem;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: 2px 4px 5px #444;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  min-width: 90%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 14rem;
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-indent: 2%;
+  border-radius: 0.4rem;
+}
+/* Reset style for HTML element on active to have no border*/
+/* input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+} */
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #22b2da;
+  transition: background 1000ms;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
