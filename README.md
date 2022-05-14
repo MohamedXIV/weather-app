@@ -1,3 +1,3 @@
 # weather-app
 
-please run node server.js
+Please run ``` node server.js ```
